@@ -1,0 +1,124 @@
+/*
+GLOBAL  
+*/
+.heading-site{
+    text-align: center;
+
+
+}
+
+.modal {
+    top: 75px;
+}
+
+body{
+    background-color: darkgrey;
+}
+
+
+/*
+HEADER
+*/
+.header{
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+  
+
+.header .header-logo {
+    width: 0;
+    color: rgb(255, 255, 255);
+    float: right;
+    height: -30px;
+    margin-right: 30px;
+
+}
+
+.header .header-menu {
+    float: left;
+    margin-left: 25px;
+    color: black;
+    text-align: center;
+    padding: 22px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 15px;
+    border-radius: 2px;
+}
+
+.header .header-menu a {
+    margin-right: 15px;
+    color: white;
+}
+
+.header .header-menu a:hover {
+    color: royalblue;
+}
+/*
+ABOUT
+*/
+.about .about-single-element .icon {
+    font-size: 90px;
+    text-align:right;
+}
+.about .about-single-element {
+    text-align: center;
+}
+.about .about-single-element p {
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+
+/*
+banner
+*/
+.banner {
+    margin-top: -24px;
+
+}
+
+.banner .banner-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: -100px;
+    
+}
+
+.banner .banner-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+
+}
+
+
+.banner .banner-content h1,
+.banner .banner-content h2 {
+    color: #ffffff;
+}
+/*
+FOOTER
+*/
+.footer .footer-informations {
+    text-align: center;
+}
+.footer .footer-informations ul {
+    padding: 0;
+}
+.footer .footer-informations ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+/* PAGE CODE SOURCE */
